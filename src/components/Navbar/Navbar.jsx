@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -7,18 +7,24 @@ const Navbar = () => {
         <p className="nav-logo">moja firma</p>
         <ul className="nav-menu">
           <li className="nav-menu-item">
-            <a className="nav-menu-link" href="#about">o nas</a>
+            <a className="nav-menu-link" href="#about">
+              o nas
+            </a>
           </li>
           <li className="nav-menu-item">
-            <a className="nav-menu-link" href="#offer">oferta</a>
+            <a className="nav-menu-link" href="#offer">
+              oferta
+            </a>
           </li>
           <li className="nav-menu-item">
-            <a className="nav-menu-link disabled">kontakt</a>
+            <a className="nav-menu-link disabled" href="#contact">
+              kontakt
+            </a>
           </li>
         </ul>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

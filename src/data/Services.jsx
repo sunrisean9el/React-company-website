@@ -1,10 +1,10 @@
 const services = [
-  { name: "Usługa", id: 1, isNew: true },
-  { name: "Usługa", id: 2, isNew: false },
-  { name: "Usługa", id: 3, isNew: false },
-  { name: "Usługa", id: 4, isNew: false },
-  { name: "Usługa", id: 5, isNew: false },
-  { name: "Usługa", id: 6, isNew: false },
+  { id: 1, name: "Usługa", isNew: true },
+  { id: 2, name: "Usługa", isNew: false },
+  { id: 3, name: "Usługa", isNew: false },
+  { id: 4, name: "Usługa", isNew: false },
+  { id: 5, name: "Usługa", isNew: false },
+  { id: 6, name: "Usługa", isNew: false },
 ];
 
 export default services;

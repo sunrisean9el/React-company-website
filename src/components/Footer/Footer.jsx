@@ -1,10 +1,8 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container container">
-        <p className="copyrights">
+        <p className="copyrights p-tag">
           Nazwa firmy - wszelkie prawa zastrzeżone, 2019
         </p>
         <div className="social-media">

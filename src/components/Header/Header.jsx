@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = () => {
   return (
     <header className="header">
@@ -8,7 +6,7 @@ const Header = () => {
         <h1 className="header-title">
           Nasza firma oferuje najwyższej jakości produkty.
         </h1>
-        <p className="header-subtitle">Nie wierz nam na słowo - sprawdź</p>
+        <p className="header-subtitle p-tag">Nie wierz nam na słowo - sprawdź</p>
         <a className="header-button" href="#offer">
           oferta
         </a>

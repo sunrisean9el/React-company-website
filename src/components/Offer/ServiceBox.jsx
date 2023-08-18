@@ -1,27 +1,13 @@
-import React from "react";
-import services from "../../data/Services";
-
-const ServiceBox = () => {
-  return services.map((item) => {
-    if (item.isNew === true) {
-      return (
-        <div className="service-box">
-          <h3 className="service-name">
-            {item.name} {item.id}
-          </h3>
-          <p className="service-info">(nowość)</p>
-        </div>
-      );
-    } else {
-      return (
-        <div className="service-box">
-          <h3 className="service-name">
-            {item.name} {item.id}
-          </h3>
-        </div>
-      );
-    }
-  });
+const ServiceBox = ({ name, number, isNew }) => {
+  return (
+    <div className="service-box">
+      <h3 className="service-name">
+        {name} {number}
+      </h3>
+      {isNew && <div className="service-circle"></div>}
+      {isNew && <p className="service-info p-tag">(nowość)</p>}
+    </div>
+  );
 };
 
 export default ServiceBox;
